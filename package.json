@@ -1,0 +1,18 @@
+{
+  "name": "calculadora-icms-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alpdias/calculadora-icms-js.git",
+  "author": "Paulo <al.pdias24@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "http-server": "^14.1.1"
+  },
+  "scripts": {
+    "dev": "babel src/main.js -o public/bundle.js -w",
+    "start": "http-server ./public"
+  }
+}
